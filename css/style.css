@@ -1,0 +1,132 @@
+
+/*  Color
+
+Text color : #474747
+ background-color: #FFF8F3;
+#FD6E0A
+
+
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+.primary{
+    color: #FD6E0A;
+}
+/* .size{
+    padding: 0px 100px
+} */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    background-color: #FFF8F3;
+    padding: 40px 0px 0px 0px;
+}
+  
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+nav > h3{
+ font-size: 43px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav > ul > li {
+    list-style: none;
+    margin-left: 50px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #474747;
+}
+#btn_hire {
+    background-color: #FD6E0A;
+    display: block;
+    width: 136px;
+    height: 50px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 83vh;
+}
+.content h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.content h1 {
+    font-size: 85px;
+    font-weight: bold;
+}
+.content p {
+    font-size: 18px;
+    margin: 14px 0px 30px 0px;
+}
+.btns_header{
+
+}
+.btns_header a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 200px;
+    max-width: 200px;
+    height: 50px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+}
+a#contact {
+    background: none;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    width: 160px;
+}
+
+.header_left_content {
+    width: 50%;
+    height: auto;
+    margin: auto 0px;
+    text-align: justify;
+}
+.content {
+    margin: 0px auto;
+    margin-left: 20%;
+}
+.header_right_content {
+    width: 50%;
+    /* height: 676px; */
+    background: url(/img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    background-origin: border-box;
+    overflow: visible;
+    text-align: end;
+}
+.header_right_content img {
+    width: 60%;
+    height: 100%;
+}
