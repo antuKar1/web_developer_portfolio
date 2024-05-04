@@ -133,7 +133,7 @@ a#contact {
 .header_right_content {
     width: 50%;
     /* height: 676px; */
-    background: url(./img/header_bg.png);
+    background: url(../img/header_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100% 100%;
